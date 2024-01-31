@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apunts UF1</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <h1>Apuntes Lenguajes de marcas</h1>
+    <h2>Implementacion GitHub</h2>
+    <p>1. Primero de todo creamos un repositiroio nuevo en GitHub,le ponemos un nombre y siempre le damos a la casilla de añadir el readme para inicializarlo automaticamente</p>
+    <ul>
+     <li>Si no se marca el readme el repositorio quedara vacio y no se inicializara el readme</li>
+    </ul>
+    <h3>Clonado y trabajo local</h3>
+    <p>Para enlazar github con un archivo debemos abrir nuestros archivos y crear una carpeta,dentro de esa carpeta </p>
+    <p>Usaremos una estructura base C:\GIT a partir de la cual construiremos los repositorios que queramos trabajar en local y tener sincronizados con GitHub.
+    <h3>Comandos en el terminal Git</h3>
+    <p> Situados en esta carpeta “raíz” de GIT, y conociendo la URL del repositorio Gigit tHub a clonar, usaremos la orden git clone y copiaremos el link del repositorio https://github.com/deiby14/apuntes-deiby.git  para que se cree el clon local</p>
+    <ul>
+        <li>git init ,Inicializamos el repositorio GIT en la carpeta donde estamos situados.</li>
+        <li>git add "nombre del archivo",elementos nuevos en el repositorio</li>
+        <li>git commit -m "titulo",para indicar los cambios</li>
+        <li>git push origin main,para sincronizar elementos con el anterior commit</li>
+        
+    </ul>
+    <h3>Otros comandos</h3>
+    <ul>
+        <li>Git pull,hara lo contrario a git push, es decir bajara los archivos subidos</li>
+        <li>Git init, lo que hara es inicializar des de la propia carpeta</li>
+        <li>git branch -m Main,se asocia a otra rama por ejemplo al Main</li>
+        
+    </ul>
+    <h3> Activacion del pages en GitHub</h3>
+    <img src="Captura de pantalla 2023-12-14 191830.png" alt="">
+    <p>Para convertir en pagina nuestro archivo iremos a <strong>seetings</strong> y al apartado de <strong>pages</strong> en ella clicaremos a <strong>save</strong> y esperaremos a que se cree</p>
+     
+    <hr>
+
+    <h2>Markdown</h2>
+    <P>Para mostrar encabezados de titulos basicos podemos añadir etiquetas como h1,h2,h3,h4... segun el numero que este cada vez mas abajo sera el tamaño de los titulos</P>
+    <h2> Tipos de listado</h2>
+    <h3> Lista ordenada</h3>
+    <p>Para mostrar un listado ordenado pondremos simplemente un numero y un punto</p>
+    <ol>
+     <li>primera</li>
+     <li>segunda</li>
+     <li>tercera</li>
+    </ol>
+    <h3>Lista desordenada</h3>
+    <ul>
+        <li>-Primer elemento</li>
+        <li>-Segundo elemento</li>
+        <li>-Tercer elemento</li>
+    </ul>
+    <p>Para hacer un listado desordenado debemos hacer uso de signos</p>
+    <h2>Imagenes</h2>
+    <p>Para introducir imagenes utilizamos la etiqueta inline style y agregamos el titulo de la imagen</p>
+    <h2>Tablas</h2>
+    <p>En el readme esta hecha una tabla,a continuacion mostrare los pasos a seguir para hacer una tabla</p>
+    <ol>
+        <li>Los dos puntos se usan para alinear las columnas (izquierda, centrado, derecha).</li>
+        <li>  No es necesario que estén alineadas verticalmente.</li>
+        <li>Se han de poner al menos tres guiones para separar cada encabezado</li>
+    </ol>    
+
+   <h2>Apartado HTML</h2>
+   <p>Significado=<strong>H</strong>Hypertext <strong>M</strong>Markup <strong>L</strong>Language</p>
+   <p>Todo comando debe tener los simbolos de apaertura <> </p>
+   <ol>
+     <li><strong>Contenido</strong>este es el contenido del elemento, que en este caso es sólo texto.</li>
+     <li><strong>Elemento</strong>la etiqueta de apertura, más la etiqueta de cierre, más el contenido equivale al eleme</li>
+     <li><strong>Atributo</strong> seguido por un signo de igual (=) y comillas de apertura y de cierre, encerrando el valor del atributo </li>
+   </ol>
+    <p>Puedes también colocar elementos dentro de otros elementos. Esto se llama <strong> anidamiento.</strong></p>
+
+    <p>Algunos elementos no poseen contenido, y son llamados <strong> elementos vacíos.</strong>  el elemento img: img src="images/firefox-icon.png" alt="Mi imagen de prueba"> posee dos atributos, pero no hay etiqueta de cierre img> ni contenido encerrado.</p>
+    <h3>Partes de un documento HTML</h3>
+    <ol>
+        <li><strong>html/html</strong><html></html> Este elemento encierra todo el contenido de la página entera y, a veces, se le conoce como el elemento raíz (root element). </li>
+        <li><strong>head/head</strong><head></head>Este elemento actúa como un contenedor de todo aquello que quieres incluir en la página HTML que no es contenido visible para otros. </li>
+        <li><strong>link/link</strong>En este elemento podemos añadir el comando rel para poder añadir un favicoin </li>
+        <li><strong>title/title</strong>En este apartado podemos retocar todo lo que tenga que ver con la parte del encabezado de nuestro documento</li>
+        <li><strong>body/body</strong>En este apartado escribiremos,anñadiremos tablas,numeros,imagenes,videos ya que es la parte que afecta al cuerpo del documento</li>
+    </ol>
+    <h3>Principales etiquetas para hacer un documento HTML</h3>
+    <p><strong>Titulos o encabezados</strong></p>
+    <ul>
+        <li>Podemos utilizar las etiquetas h1,h2,h3,h4 segun nuestra preferencia de tamaño, <strong>son elementos de bloque</strong></li>
+        
+    </ul>
+    <p><strong>Parrafos</strong></p>
+    <p>Para ello utilizaremos la etiqueta [p]</p>
+    <p><strong>Listas</strong></p>
+    <ul>
+   
+        <li>Lista desordenada, trata de una lista sin orden numeral por ejemlo una lista de la compra, utilizamos el comando /ul</li>
+        <li>Lista ordenada,trata de una lista con orden como una lista por posiciones, utilizamos el comando /ol</li>
+        <li><strong>Dentro de la lista siempre pondremos es comando/li</strong></li>
+        
+    </ul>
+
+    <ul>
+        <li>Para hacer un <strong>salto de linea</strong> utilizaremos el comando /br</li>
+        <li>Para hacer una <strong>linea separatoria</strong> utilizaremos el coamndo /hr</li>
+    </ul>
+    <p><strong>Enlaces</strong></p>
+    <ul>
+        <li>Para hacer un enlace utilizamos el comando a/ </li>
+        <li>Una vez añadido nos aparecera la siguiente sintaxis, a href="">< a, dentro del href podemos el link y entre los signos <> la referencia con un texto </li>
+    </ul>
+    <p><strong>Anotaciones</strong></p>
+    <ul>
+        <li>Para hacer anotaciones escribiremos con control+ç <--></li>
+    </ul>
+
+   <p><strong>Fontwawesome</strong></p>
+ <ol>
+    <li>Registrarnos en la pagina <a href="https://fontawesome.com/">https://fontawesome.com/</a></li>
+    <li>Despues escoger entre los iconos que son gratiuitos o de pago si disponemos del premium</li>
+    <li>Y por ultimo pegar el lik que nos dan y ponerlo dentro del /head/ con el comando /script y en el body lo pondremos con el comando /iclass<li>
+ </ol>
+<body>
+   
+    <div class="myDiv">
+        <h2>Division en el titulo</h2>
+        <p>Division en el texto</p>
+    </div>
+
+    <!-- En los inicios de la web, HTML era simple. Con el tiempo, CSS se introdujo para separar estructura y estilo. -->
+    <section>
+        <h3>Evolución y Función</h3>
+        <p>En los inicios de la web, HTML era simple y no podía representar recursos gráficos. Con el crecimiento de los sitios web, se introdujo CSS para separar estructura y estilo.</p>
+    </section>
+
+    <!-- Ventajas e inconvenientes de CSS -->
+    <section>
+        <h3>Ventajas e Inconvenientes</h3>
+        <p>Las ventajas de CSS incluyen la posibilidad de mantener el código, un diseño más potente y simplicidad. Sin embargo, la inconsistencia entre navegadores puede ser un inconveniente.</p>
+    </section>
+
+    <!-- Ubicación de estilos en CSS -->
+    <section>
+        <h3>Ubicación de Estilos</h3>
+        <p>Los estilos se pueden ubicar en línea, internamente en la cabecera HTML, o en un documento externo. La ubicación afecta la reutilización y consistencia del diseño.</p>
+    </section>
+
+    <!-- Sintaxis básica de CSS -->
+    <section>
+        <h3>Sintaxis Básica de CSS</h3>
+        <p>Una hoja de estilos tiene reglas con selectores y declaraciones. Cada declaración tiene una propiedad y su valor. Ejemplo: <code>p { font-size: 10pt; background-color: gray; }</code></p>
+    </section>
+
+    
+    <section>
+        <h3>Composición: Margenes, Bordes y Relleno en CSS</h3>
+        <p>Los márgenes, bordes y rellenos son esenciales para controlar el espacio y la apariencia de los elementos en una página web.</p>
+    </section>
+
+
+    <section>
+        <h3>Google Fonts</h3>
+        <p>Para integrar fuentes de Google, se puede agregar el enlace en la sección <code>&lt;head&gt;</code> y luego aplicar el estilo en los elementos deseados.</p>
+    </section>
+
+    <h1>Sintaxis Básica de CSS en HTML</h1>
+
+    <p>La sintaxis genérica de una regla CSS es la siguiente:</p>
+
+    <pre>
+        <code>
+            /* Sintaxis genérica de una regla CSS */
+            selector {
+                propiedad_1: valor_1;
+                propiedad_2: valor_2;
+                /* ... más propiedades y valores ... */
+            }
+        </code>
+    </pre>
+
+    <p>Por ejemplo, si queremos que todos los párrafos tengan un tamaño de letra de 10pt y un fondo de color gris, debemos definir la siguiente regla:</p>
+
+    <pre>
+        <code>
+            /* Ejemplo de regla CSS para párrafos */
+            p {
+                font-size: 10pt;
+                background-color: gray;
+            }
+        </code>
+    </pre>
+
+    <p>En esta regla, 'p' es el selector con dos declaraciones: 'font-size: 10pt;' y 'background-color: gray;'. En cada declaración, la propiedad y el valor están definidos.</p>
+
+    <p>Este es un párrafo con el estilo personalizado.</p>
+    <h1>Ejemplo de Tabla en HTML</h1>
+
+    <table>
+        <caption>Lista de Alumnos</caption>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Curso</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Juan Pérez</td>
+                <td>25</td>
+                <td>Informática</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Maria Gómez</td>
+                <td>22</td>
+                <td>Matemáticas</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Pablo Rodríguez</td>
+                <td>23</td>
+                <td>Física</td>
+            </tr>
+        </tbody>
+    </table>
+   <p>Se ha creado una tabla con el elemento table.</p>
+   <ol>
+      <li> Se utiliza thead para el encabezado de la tabla, y tbody para el cuerpo</li>
+      <li>Cada fila se define con tr.</li>
+      <li>Las celdas de encabezado se crean con th, y las celdas normales con td>. </li>
+       <li>Se ha aplicado un estilo básico para mejorar la apariencia de la tabla. Puedes ajustar los estilos según tus preferencias.</li>
+    </ol>
+</body>
+</html>
+
+
+
+
+    
+</body>
+</html>

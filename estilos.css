@@ -1,0 +1,26 @@
+.myDiv {
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+}
+
+img{
+    width: 500px; 
+    height: 300px;
+    border-radius: 15%;
+}
+body {
+    background-color: #f4f4f4; /* Color de fondo para el cuerpo */
+    color: #333; /* Color de texto principal */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    background-color: #333; /* Color de fondo para los encabezados */
+    color: #fff; /* Color de texto para los encabezados */
+    padding: 10px; /* Espaciado interno para los encabezados */
+}
+
+p {
+    background-color: #eee; /* Color de fondo para los párrafos */
+    padding: 5px; /* Espaciado interno para los párrafos */
+}
